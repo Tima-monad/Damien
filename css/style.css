@@ -1,0 +1,161 @@
+.about {
+  padding: 27px 0 200px;
+  background-color: #070708;
+}
+
+.container {
+  width: 1596px;
+  margin: auto;
+}
+
+.about-name {
+  display: flex;
+  padding-bottom: 50px;
+  margin-bottom: 80px;
+  justify-content: space-between;
+  border-bottom: 1px solid #1c1c21;
+}
+
+.about-name-title {
+  font-size: 58px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.about-name-button {
+  padding: 16px 24px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  background: #1c1c21;
+  border-radius: 10px;
+  border: 1px solid #2f2f37;
+}
+
+.about-info {
+  display: flex;
+  gap: 30px;
+}
+
+.about-info-picture {
+  max-width: 783px;
+  height: 710px;
+}
+
+.about-info-wraper {
+  margin: 49px 0;
+  border: 1px solid #1c1c21;
+  border-radius: 5%;
+}
+
+.about-info-introduction {
+  padding: 40px;
+  border-bottom: 1px solid #1c1c21;
+}
+
+.about-info-introduction-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.about-info-introduction-heading-title {
+  color: #cacace;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.about-info-introduction-text {
+  color: #afb0b6;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.about-info-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+}
+
+.about-info-contact-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.about-info-contact-heading-title {
+  color: #cacace;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.about-info-contact-connection {
+  display: flex;
+  gap: 127px;
+}
+
+.about-info-contact-connection-item-title {
+  margin-bottom: 10px;
+  color: #e4e4e6;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.about-info-contact-connection-item-text {
+  color: #afb0b6;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.about-info-contact-work {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  align-self: stretch;
+}
+
+.about-info-contact-work-social {
+  display: flex;
+  padding: 10px;
+  justify-content: flex-end;
+  gap: 16px;
+  border-radius: 100px;
+  border: 1px solid #1C1C21;
+}
+
+.about-info-contact-work-social-item {
+  display: flex;
+  padding: 14px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  border: 1px solid #2F2F37;
+  background: #1C1C21;
+}
+
+.about-info-contact-work-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.about-info-contact-work-buttons-item-button {
+  display: flex;
+  padding: 18px 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  border-radius: 10px;
+  border: 1px solid #2F2F37;
+  background: #1C1C21;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+}
