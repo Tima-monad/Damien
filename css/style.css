@@ -1,6 +1,6 @@
 .about {
   padding: 27px 0 200px;
-  background-color: #070708;
+
 }
 
 .container {
@@ -158,4 +158,112 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 1.5;
+}
+
+
+.nigas {
+  padding: 31px 0 200px;
+}
+
+.container {}
+
+.nigas-heading {
+  display: flex;
+  padding-bottom: 50px;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.nigas-heading-title {
+  align-self: stretch;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.nigas-heading-buttons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nigas-heading-buttons-list {
+  display: flex;
+  padding: 10px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+  border-radius: 100px;
+  border: 1px solid #1C1C21;
+  background: #070708;
+}
+
+.nigas-heading-buttons-list-item {}
+
+.nigas-heading-buttons-list-item-pointer {
+  display: flex;
+  padding: 14px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  border: 1px solid #2F2F37;
+  background: #1C1C21;
+
+}
+
+.nigas-heading-buttons-list-item-pointer-img {
+  background: #1C1C21;
+
+}
+
+.nigas-heading-buttons-button {
+  display: flex;
+  padding: 16px 24px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid #2F2F37;
+  background: #1C1C21;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+
+}
+
+.nigas-events {
+  display: flex;
+  gap: 50px;
+}
+
+.nigas-events-info {}
+
+.nigas-events-info-heading {}
+
+.nigas-events-info-heading-title {}
+
+.nigas-events-info-headint-title-button {}
+
+.nigas-events-info-headint-title-button-pointer {}
+
+.nigas-events-info-service {}
+
+.nigas-events-info-service-title {}
+
+.nigas-events-info-service-list {}
+
+.nigas_events-info_service-list-item {}
+
+.nigas_events-info_service-list-item-img {}
+
+.nigas_events-info_service-list-item-text {}
+
+.nigas-events-img {
+  width: 773px;
+  height: 625px;
+  flex: 1 0 0;
 }
