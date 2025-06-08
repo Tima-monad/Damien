@@ -240,27 +240,94 @@
   gap: 50px;
 }
 
-.nigas-events-info {}
+.nigas-events-info {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
 
-.nigas-events-info-heading {}
+.nigas-events-info-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
-.nigas-events-info-heading-title {}
+.nigas-events-info-heading-title {
+  display: flex;
+  justify-content: start;
+  gap: 16px;
 
-.nigas-events-info-headint-title-button {}
+}
+
+.nigas-events-info-heading-title-text {
+  color: #797C86;
+  font-size: 44px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nigas-events-info-headint-title-button {
+  display: flex;
+  padding: 18px 50px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  background: #4A2CED;
+  box-shadow: 4px 4px 17.4px 0px rgba(255, 255, 255, 0.28) inset;
+}
 
 .nigas-events-info-headint-title-button-pointer {}
 
-.nigas-events-info-service {}
+.nigas-events-info-heading-text {
+  align-self: stretch;
+  color: #797C86;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
 
-.nigas-events-info-service-title {}
+.nigas-events-info-service {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
-.nigas-events-info-service-list {}
+.nigas-events-info-service-title {
+  color:  #CACACE;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5%;
+}
 
-.nigas_events-info_service-list-item {}
+.nigas-events-info-service-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
-.nigas_events-info_service-list-item-img {}
+.nigas_events-info_service-list-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 18px 20px;
+  align-self: stretch;
+  border-radius: 12px;
+  border: 1px solid #1C1C21;
+}
 
-.nigas_events-info_service-list-item-text {}
+.nigas_events-info_service-list-item-img {
+  width: 40px;
+  height: 40px;
+}
+
+.nigas_events-info_service-list-item-text {
+  flex: 1 0 0;
+  color: #AFB0B6;
+  font-size: 18px;
+  line-height: 1.5;
+  /* 27px */
+  text-transform: uppercase;
+}
 
 .nigas-events-img {
   width: 773px;
