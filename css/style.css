@@ -8,6 +8,66 @@
   margin: auto;
 }
 
+.header {
+  margin: 30px 0;
+}
+
+.header>.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {}
+
+.header-logo {
+  width: 134.1px;
+  height: 27px;
+}
+
+.header-navigation {}
+
+.header-navigation-list {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.header-navigation-list-item {}
+
+.header-navigation-list-item-button {
+  display: flex;
+  padding: 30px 40px;
+  align-items: center;
+  gap: 10px;
+  border-right: 1px solid #1C1C21;
+  color: #AFB0B6;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.header-navigation-list-item-button:hover {
+  border: 1px solid #1C1C21;
+  background: #131316;
+}
+
+
+.header-contact-button {
+  display: flex;
+  padding: 16px 24px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid #2F2F37;
+  background: #1C1C21;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
 .about-name {
   display: flex;
   padding-bottom: 50px;
@@ -293,7 +353,7 @@
 }
 
 .nigas-events-info-service-title {
-  color:  #CACACE;
+  color: #CACACE;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.5%;
@@ -334,3 +394,4 @@
   height: 625px;
   flex: 1 0 0;
 }
+
