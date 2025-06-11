@@ -18,6 +18,17 @@ ul {
   list-style: none;
 }
 
+button{
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  outline: none;
+  cursor: pointer;
+}
+
 img {
   display: block;
   height: auto;
