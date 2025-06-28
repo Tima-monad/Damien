@@ -9,7 +9,7 @@
 }
 
 .header {
-  margin: 30px 0;
+  padding: 30px 0;
 }
 
 .header>.container {
@@ -85,6 +85,7 @@
   background: #1c1c21;
   border-radius: 10px;
   border: 1px solid #2f2f37;
+  display: flex;
 }
 
 .about-info {
@@ -200,11 +201,10 @@
 
 .about-info-contact-work-buttons-item-button {
   display: flex;
-  padding: 18px 34px;
+  padding: 18px 50px;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  flex: 1 0 0;
   border-radius: 10px;
   border: 1px solid #2F2F37;
   background: #1C1C21;
@@ -216,18 +216,19 @@
 
 
 .nigas {
-  padding: 31px 0 200px;
+  margin: 31px 0 200px;
 }
 
-.container {}
 
 .nigas-heading {
   display: flex;
   padding-bottom: 50px;
+  margin-bottom: 80px;
   align-items: center;
   gap: 20px;
   align-self: stretch;
   justify-content: space-between;
+  border-bottom: 1px solid var(--Dark-12, #1C1C21);
 }
 
 .nigas-heading-title {
@@ -248,15 +249,11 @@
 .nigas-heading-buttons-list {
   display: flex;
   padding: 10px;
-  justify-content: flex-end;
-  align-items: center;
   gap: 16px;
   border-radius: 100px;
   border: 1px solid #1C1C21;
   background: #070708;
 }
-
-.nigas-heading-buttons-list-item {}
 
 .nigas-heading-buttons-list-item-pointer {
   display: flex;
@@ -271,7 +268,6 @@
 
 .nigas-heading-buttons-list-item-pointer-img {
   background: #1C1C21;
-
 }
 
 .nigas-heading-buttons-button {
@@ -330,8 +326,6 @@
   box-shadow: 4px 4px 17.4px 0px rgba(255, 255, 255, 0.28) inset;
 }
 
-.nigas-events-info-headint-title-button-pointer {}
-
 .nigas-events-info-heading-text {
   align-self: stretch;
   color: #797C86;
@@ -350,7 +344,7 @@
   color: #CACACE;
   font-size: 18px;
   font-weight: 500;
-  line-height: 1.5%;
+  line-height: 1.5;
 }
 
 .nigas-events-info-service-list {
@@ -375,7 +369,6 @@
 }
 
 .nigas_events-info_service-list-item-text {
-  flex: 1 0 0;
   color: #AFB0B6;
   font-size: 18px;
   line-height: 1.5;
@@ -386,11 +379,10 @@
 .nigas-events-img {
   width: 773px;
   height: 625px;
-  flex: 1 0 0;
 }
 
-.footer{
-  border-top:  2px solid #1C1C21;
+.footer {
+  border-top: 2px solid #1C1C21;
 }
 
 .footer-main {
@@ -444,8 +436,6 @@
   box-shadow: 4px 4px 17.4px 0px rgba(255, 255, 255, 0.28) inset;
 }
 
-.footer-main-lets-heading-button-button-pointer {}
-
 .footer-main-lets-headin-text-title {
   font-size: 58px;
   font-weight: 600;
@@ -456,8 +446,6 @@
   display: flex;
   padding: 100px 80px;
   justify-content: space-between;
-  align-items: flex-start;
-  flex: 1 0 0;
   border: 1px solid #1C1C21;
 }
 
@@ -502,7 +490,7 @@
   justify-content: space-between;
   align-items: flex-start;
   align-self: stretch;
-  border-top: 1px solid  #1C1C21;
+  border-top: 1px solid #1C1C21;
 }
 
 .footer-privacy-terms {
@@ -518,7 +506,6 @@
   display: flex;
   gap: 22px;
 }
-
 
 .footer-privacy-terms-buttons-social {
   display: flex;
@@ -538,12 +525,6 @@
   border: 1px solid #2F2F37;
   background: #1C1C21;
 }
-
-.footer-privacy-terms-buttons-item {}
-
-.about-info-contact-work-social-item-link {}
-
-.footer-privacy-terms-buttons-item-link {}
 
 .footer-privacy-terms-rights {
   color: #797C86;
